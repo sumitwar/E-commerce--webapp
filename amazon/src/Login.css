@@ -1,0 +1,127 @@
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: linear-gradient(to bottom right,rgb(172, 102, 172), lightyellow,  rgb(192, 242, 243)); */
+    background-size: 100% 100%;
+	animation: gradient 100s ease-in infinite;
+	/* height: 100vh; */
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/508/165/121/movies-oz-the-great-and-powerful-fantasy-art-digital-art-wallpaper-d9d0f83d314a1d9bb627089f30c1161d.jpg');
+    background-size: cover;
+}
+
+
+
+
+/* @keyframes gradient {
+    
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+
+
+.login__logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    object-fit: contain;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.login__container {
+    width: 300px;
+    filter: saturate(50px);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid rgba(225,225,225,.2);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.162);
+    box-shadow: 0 5px 100px  rgba(169, 173, 250, 0.249);
+
+}
+
+.login__container:hover {
+    color: #111;
+    background: #0000003d;
+    box-shadow: 0 0 50px 5px #0000005c;
+    
+}
+
+
+
+
+.login__container > h1 {
+    font-weight: 350;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.login__container > form > h5 {
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+.login__container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background: rgba(225,225,225,.2);
+    width: 98%;
+    border-color: rgba(7, 7, 7, 0.2);
+    border-radius: 5px;
+
+}
+
+.login__container > p {
+    margin-top: 15px;
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.login__signInButton {
+    background: rgba(228, 209, 5, 0.386) ;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a2986;
+}
+
+.login__signInButton:hover {
+    color: #111;
+    background: #f6c70b;
+    box-shadow: 0 0 50px 5px #ffe014;
+}
+
+
+.login__registerButton:hover {
+    color: #111;
+    background: #fefefe;
+    box-shadow: 0 0 50px 5px #ffffff;
+}
+
+.login__registerButton {
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.478) ;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: rgb(150, 147, 147);
+}
+
